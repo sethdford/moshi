@@ -8,11 +8,11 @@ dependencies = [
     "huggingface-hub >= 0.24, < 0.29",
     "bitsandbytes >= 0.45, < 0.46; sys_platform == 'linux'",
     "einops >= 0.7, < 0.9",
-    "sentencepiece == 0.2",
+    "sentencepiece == 0.2.1",
     "sounddevice == 0.5",
     "sphn >= 0.1.4",
-    "torch >= 2.2.0, < 2.7",
-    "aiohttp>=3.10.5, <3.12",
+    "torch >= 2.2.0, < 2.9",
+    "aiohttp>=3.10.5, <3.14",
     "pytest >= 8.3.3",
 ]
 authors = [{name="Laurent Mazaré", email="laurent@kyutai.org"}]
